@@ -1,0 +1,98 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-image: url(https://images.tech.co/wp-content/uploads/2021/04/06084419/Facebook-Logo.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position-y: -40%;
+   color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   height: 100vh;
+}
+
+header {
+
+   background-color: white;
+   width: 97%;
+   min-height: 150px;
+   margin: 10px auto;
+   box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
+   0 14px 20px rgba(0, 0, 0, 0.24);
+   padding-left: 15px;
+   padding-top: 10px;
+}
+
+h1 {
+   color: rgb(0, 102, 255);
+   font-size: 3em;
+}
+
+nav {
+   margin-top: 50px;
+   width: 100%;
+}
+
+nav ul li {
+   display: inline;
+   margin: auto 20px;
+   padding: 0 auto;
+}
+
+main {
+   margin: auto;
+   width: 90%;
+   text-align: left;
+}
+
+main section {
+   width: 60%;
+   margin: 40px 0;
+}
+
+main p {
+   font-size: 1.2rem;
+}
+
+main h2{
+   margin: 10px 0;
+}
+
+main section img {
+   width: 600px;
+   height: 325px;
+   margin: 40px auto;
+   box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
+   0 14px 20px rgba(0, 0, 0, 0.24);
+}
+
+
+main div {
+   margin: auto;
+}
+
+
+footer ul,
+footer ul li {
+   display: inline-block;
+   margin: 40px 40px;
+}
+
+footer {
+
+   color: black;
+   font-weight: normal;
+   background-color: white;
+   margin: 10px auto;
+   width: 97%;
+   text-align: center;
+   box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
+   0 14px 20px rgba(0, 0, 0, 0.24);
+}

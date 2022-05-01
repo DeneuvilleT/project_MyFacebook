@@ -6,25 +6,36 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-   integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-   crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <title>Mon Blog</title>
-   <link rel="stylesheet" href="/style.css">
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <title>Mes archives Facebook</title>
+   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
+   <div><!-- Flex -->
+      <header>
+         <h1>Archives Facebook</h1>
+         <nav>
+            <ul>
+               <li><a href="/">Accueil</a></li>
+               <li><a href="/about">Invitations</a></li>
+               <li><a href="https://fr-fr.facebook.com/">Facebook</a></li>
+            </ul>
+         </nav>
+      </header>
 
-   <header class="blog-header">
-      <h1 class="xl-txt"><a href="/"><i class="fa-solid fa-microphone"></i>&nbsp;Entrainement SQL</a></h1>
-      <nav>
+      <%- include(template) -%>
 
-      </nav>
-   </header>
 
-   <%- include(template) -%>
-
-   <footer class="blog-footer">
-      <p>Training SQL</p>
+   </div><!-- Flex -->
+   <footer>
+      <ul>
+         <li>A propos</li>
+         <li>Contactez nous</li>
+         <li>Livre d'or</li>
+         <li>&copy; Copyright</li>
+      </ul>
    </footer>
 
 </body>
