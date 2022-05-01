@@ -8,3 +8,18 @@ export const creaDomElem = (elem, attribut, value) => {
    elementDom.setAttribute(attribut, value);
    return elementDom;
 };
+
+
+export const display = (elem, goTo) => {
+
+   const ul = creaDomElem('ul');
+
+   for (let i = 0; i < elem.length; i++) {
+      const li = creaDomElem('li');
+      li.textContent = elem[i].name;
+      for (let i = 0; i < elem.length; i++) {
+         ul.append(li);
+      };
+      goTo.append(ul);
+   };
+};

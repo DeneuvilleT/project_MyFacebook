@@ -1,4 +1,4 @@
-const test = `{
+export const request_fb = `{
   "event_responses_v2": {
     "events_joined": [
       {
