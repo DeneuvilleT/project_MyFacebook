@@ -18,6 +18,8 @@ body {
    height: 100vh;
 }
 
+
+/* Header Nav *********************************************/
 header {
    background-color: white;
    width: 97vw;
@@ -25,7 +27,7 @@ header {
    height: 150px;
    margin: 10px auto;
    box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
-   0 14px 20px rgba(0, 0, 0, 0.24);
+      0 14px 20px rgba(0, 0, 0, 0.24);
    padding-left: 15px;
    padding-top: 10px;
 }
@@ -44,9 +46,11 @@ nav ul li {
    display: inline;
    margin: auto 20px;
    padding: 0 auto;
-   font-size: 1.2rem;
+   font-size: 1.1rem;
 }
 
+
+/* Main Section *********************************************/
 main {
    margin: 40px auto;
    width: 90%;
@@ -60,15 +64,15 @@ main section {
 
 main section ul li {
    margin: auto 20px;
-   padding-top: 5px;
-   font-size: 1.2rem;
+   padding-top: 10px;
+   font-size: 1rem;
 }
 
 main p {
    font-size: 1.2rem;
 }
 
-main h2{
+main h2 {
    margin: 15px 0;
 }
 
@@ -77,14 +81,21 @@ main section img {
    height: 325px;
    margin: 40px auto;
    box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
-   0 14px 20px rgba(0, 0, 0, 0.24);
+      0 14px 20px rgba(0, 0, 0, 0.24);
 }
 
+.date{
+   font-size: 0.9rem;
+   font-weight: normal;
+   font-style: italic;
+   color: gainsboro;
+}
+/* Footer *********************************************/
 footer ul,
 footer ul li {
    display: inline-block;
    margin: 40px 40px;
-   font-size: 1.2rem;
+   font-size: 1.1rem;
 }
 
 footer {
@@ -94,7 +105,8 @@ footer {
    margin: 10px auto;
    width: 97vw;
    min-width: 97vw;
+   height: 160px;
    text-align: center;
    box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
-   0 14px 20px rgba(0, 0, 0, 0.24);
+      0 14px 20px rgba(0, 0, 0, 0.24);
 }

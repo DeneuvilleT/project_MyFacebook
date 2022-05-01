@@ -1,5 +1,5 @@
 import { request_fb } from '../json/json.js';
-import { display } from './utilities.js';
+import { displayRequest } from './utilities.js';
 
 // Via Promise Async
 
@@ -10,9 +10,8 @@ const myFunc = async () => {
       )
    });
    const result = await promise;
-   display(result.event_responses_v2.events_declined, first);
-   display(result.event_responses_v2.events_joined, second);
-   console.log(result);
+   displayRequest(result.event_responses_v2.events_declined, first);
+   displayRequest(result.event_responses_v2.events_joined, second);
 };
 
 document.addEventListener('DOMContentLoaded', () => {

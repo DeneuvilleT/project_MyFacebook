@@ -10,16 +10,18 @@ export const creaDomElem = (elem, attribut, value) => {
 };
 
 
-export const display = (elem, goTo) => {
+export const displayRequest = (data, goTo) => {
 
    const ul = creaDomElem('ul');
 
-   for (let i = 0; i < elem.length; i++) {
-      const li = creaDomElem('li');
-      li.textContent = elem[i].name;
-      for (let i = 0; i < elem.length; i++) {
-         ul.append(li);
-      };
+   data.forEach(element => {
+      const liName = creaDomElem('li');
+      liName.textContent = `${element.name}`;
+
+      data.forEach(() => {
+         ul.append(liName);
+      });
+
       goTo.append(ul);
-   };
+   });
 };

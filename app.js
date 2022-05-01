@@ -4,6 +4,7 @@ import express from 'express';
 import 'dotenv/config';
 import router from './routes/index.js';
 
+
 const app = express();
 const PORT = process.env.PORT || process.env.SERVER_LOCAL_PORT;
 const __filename = fileURLToPath(import.meta.url);
