@@ -37,6 +37,8 @@ const recupData = async () => {
       });
 };
 
+
+
 document.addEventListener('DOMContentLoaded', () => {
    recupData();
 });

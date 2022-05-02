@@ -14,4 +14,8 @@ router.get("/page_followed", (req, res) => {
    res.render("layout", { template: "page_followed" });
 });
 
+router.get("/post", (req, res) => {
+   res.render("layout", { template: "post" });
+});
+
 export default router;

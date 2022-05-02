@@ -52,7 +52,7 @@ nav ul li {
 
 /* Main Section *********************************************/
 main {
-   margin: 40px auto;
+   margin: 25px auto;
    width: 90%;
    text-align: left;
 }
@@ -84,12 +84,47 @@ main section img {
       0 14px 20px rgba(0, 0, 0, 0.24);
 }
 
-.date{
+.date {
    font-size: 0.9rem;
    font-weight: normal;
    font-style: italic;
-   color: gainsboro;
+   color: rgb(165, 165, 165);
 }
+
+#page {
+   display: flex;
+   list-style-type: none;
+}
+
+#page li {
+   margin: auto 10px;
+   color: antiquewhite;
+}
+
+#publi {
+   height: 750px;
+   width: 80%;
+   overflow: scroll;
+   scroll-behavior: smooth;
+   background-color: rgba(0, 0, 0, 0.226);
+   padding: 25px;
+}
+
+#publi::-webkit-scrollbar {
+   display: none;
+}
+
+#publi div p {
+   margin: 20px auto 10px auto;
+   color: antiquewhite;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#publi div p+span+hr {
+   margin-top: 10px;
+   width: 10%;
+}
+
 /* Footer *********************************************/
 footer ul,
 footer ul li {
@@ -102,7 +137,7 @@ footer {
    color: black;
    font-weight: normal;
    background-color: white;
-   margin: 10px auto;
+   margin: 0px auto 10px auto;
    width: 97vw;
    min-width: 97vw;
    height: 160px;
